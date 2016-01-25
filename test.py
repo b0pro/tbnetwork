@@ -22,9 +22,9 @@ xlsdata1 = basicdata1.getData()
 #print(xlsdata1)
 
 
-xlssheet = CBasicXlsSheet("./data/mv.xlsx")
+xlssheet = CBasicXlsSheet("./data/cg.xlsx")
 xlssheet.getHeader()
-x = xlssheet.getData(2)
+x = xlssheet.getData(2000)
 drawNetworkGraph(x)
 # print(x.__len__())
 # print(x[0].getData())
